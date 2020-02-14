@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_awards_index>
+        <reference name="content">
+            <block type="armat_awards/adminhtml_awards" name="awards.grid_container" />
+        </reference>
+    </adminhtml_awards_index>
+
+    <adminhtml_awards_new>
+        <update handle="adminhtml_awards_edit"/>
+    </adminhtml_awards_new>
+
+    <adminhtml_awards_edit>
+        <reference name="content">
+            <block type="armat_awards/adminhtml_edit" name="awards.edit" />
+        </reference>
+    </adminhtml_awards_edit>
+</layout>

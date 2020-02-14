@@ -1,0 +1,40 @@
+.owl-carousel .owl-item img {
+    width: auto;
+    height: 140px;
+    display: block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.owl-carousel .owl-nav.disabled {
+    display: unset;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: #e7e7e7;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0px !important;
+    color: #000;
+    font-size: 30px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    float: right;
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding-left: 5%;
+    padding-right: 5%;
+}

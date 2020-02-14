@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog translate="title" module="catalog">
+            <children>
+                <items module="catalog" translate="title">
+                    <title>Manage Awards</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/awards</action>
+                </items>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <armat_awards translate="title" module="armat_awards">
+                        <title>Awards</title>
+                        <sort_order>0</sort_order>
+                    </armat_awards>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

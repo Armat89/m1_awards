@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Armat_Awards>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Armat_Awards>
+    </modules>
+</config>

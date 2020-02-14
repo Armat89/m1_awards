@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout>
+    <catalog_product_view translate="label">
+        <reference name="head">
+            <!-- Owl Carousel -->
+            <action method="addItem"><type>skin_js</type><script>js/owl.carousel.min.js</script></action>
+            <action method="addCss"><stylesheet>css/owl.carousel.min.css</stylesheet></action>
+            <action method="addCss"><stylesheet>css/owl.theme.default.css</stylesheet></action>
+            <action method="addCss"><stylesheet>css/owl.custom.css</stylesheet></action>
+        </reference>
+        <reference name="product.info.additional">
+            <block type="catalog/product_view" name="awards" as="awards" template="armat/awards/product.phtml"/>
+        </reference>
+    </catalog_product_view>
+</layout>

@@ -1,0 +1,31 @@
+<?php
+    $product_id = $this->getProduct()->getId();
+    $helper = $this->helper('armat_awards');
+?>
+
+<div>
+    <h3>Awards list</h3>
+    <ul class="owl-carousel" >
+    <?php echo $helper->getProductAwards($product_id); ?>
+    </ul>
+</div>
+
+<script>
+    jQuery.noConflict();
+    jQuery(document).ready(function() {
+        jQuery('.owl-carousel').owlCarousel({
+            items:4,
+            margin: 10,
+            loop:false,
+            nav:true,
+            responsive:{
+                320:{
+                    items:3
+                },
+                768:{
+                    items:4
+                }
+            }
+        });
+    });
+</script>
